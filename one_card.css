@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1200px;
+    font-family: sans-serif;
+    margin:0px auto;
+    padding: 0px 130px;
+
+}
+.container-nav{
+     background-color: #FFFFFF;
+    position:sticky;
+    top:0;
+    z-index: 5;
+}
+
+.nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.nav-left-section>img{
+    width: 90px;
+    height: 80px;
+}
+
+.div-right-section>a{
+    text-decoration: none;
+    padding:8px 22px;
+    color:rgba(0, 0, 0, 0.829);
+    font-weight: 600;
+}
+
+/*hero style*/
+.hero{
+    display:flex;
+    margin: 0px 15px;
+    padding: 0px 50px;
+}
+
+.hero-left-section{
+    width: 50%;
+    padding:60px 0px;
+}
+.hlsh-1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hlsh-2{
+    font-size: 60px;
+    font-weight: 500;
+    color:rgba(24, 147, 247, 1);
+}
+.hls-txt1{
+    padding:10px 0px;
+    color: rgba(24, 147, 247, 1);
+}
+
+.hero-left-section>img{
+    width:350px;
+    padding:10px 0px;
+}
+.hls-txt2{
+    padding-right: 20px;
+    font-size:18px ;
+    font-weight: 100;
+    color:rgba(0, 0, 0, 0.829);
+}
+
+.hero-left-section>button{
+    margin-top: 40px;
+    background-color: rgba(24, 147, 247, 1);
+    padding:10px 50px;
+    border-radius: 5px;
+    border: none;
+    color:white;
+}
+
+
+.hero-right-section{
+    width: 50%;
+}
+
+.hero-right-section>video{
+    width: 100%;
+    height:500px;
+}
+
+/*fee section*/
+.fee-section{
+    background-color:black
+}
+.fee-section-txt{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.fee-section-txt > h1 {
+    font-size: 62px;
+    padding: 70px 0;
+    font-weight: 400;
+    background-image: linear-gradient(to right, rgba(24, 147, 247, 1), #8EBA9B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* Ensures proper rendering */
+}
+
+.fee-section-txt>h2{
+    font-size: 45px;
+    padding-top: 15px;
+    font-weight: 400;
+   
+}
+
+/*app section*/
+
+.app-section-area{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+}
+.app-section-left{
+    width: 50%;
+
+}
+.app-section-left>video{
+    width: 100%;
+    height: 500px;
+}
+
+.app-section-right{
+    width: 50%;
+    text-align: end;
+}
+.app-section-right>h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.app-section-right>p{
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.829);
+}
