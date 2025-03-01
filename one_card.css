@@ -33,6 +33,7 @@
     padding:8px 22px;
     color:rgba(0, 0, 0, 0.829);
     font-weight: 600;
+    cursor:pointer;
 }
 
 /*hero style*/
@@ -79,6 +80,7 @@
     border-radius: 5px;
     border: none;
     color:white;
+    cursor:pointer;
 }
 
 
@@ -230,6 +232,7 @@
     border-radius:10px;
     background-color:rgba(24, 147, 247, 1);
     color:white;
+    cursor:pointer;
 }
 .myfamily-right-section{
     width:50%;
@@ -286,6 +289,7 @@
     background-color:rgba(24, 147, 247, 1);
     color:white;
     font-size:20px;
+    cursor:pointer;
 }
 
 /* partner-section-items */
