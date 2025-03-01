@@ -315,3 +315,85 @@
 .partner-section-items>img{
     width: 350px;
 }
+
+/* invester-section style  */
+.invester-section{
+    padding:50px 0px;
+}
+.invester-section-content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.invester-section-content>h1{
+    font-size:70px;
+    font-weight:500;
+}
+.invester-section-content>p{
+    padding: 20px;
+    font-size:30px;
+    font-weight:100;
+    color:#696969;
+    text-align: center;
+}
+.invester-section-logo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    gap:30px;
+}
+.invester-section-logo>div{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 280px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #696969;
+    overflow:hidden;
+}
+.invester-section-logo>div:hover{
+    cursor:pointer;
+}
+.invester-section-logo>div>img{
+    width:70%;
+    transition: 0.3s ease-in-out;
+}
+.invester-section-logo>div>img:hover{
+    width: 100%;
+    overflow:hidden;
+    
+}
+
+/* footer section styel  */
+.footer{
+    background-color:#0C161B;
+    padding:50px 0px;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+footer>h1{
+    padding:30px 0px;
+    color:rgba(24, 147, 247, 1);
+    font-size:30px;
+}
+
+footer>p{
+    padding:50px;
+    text-align: center;
+    font-size:20px;
+    color:white;
+    font-weight:200;
+}
+.followup>h3{
+    text-align: center;
+    padding:30px 0px;
+    color:white;
+    font-size:20px
+}
