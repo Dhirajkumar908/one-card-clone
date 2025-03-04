@@ -463,9 +463,9 @@ footer>p {
         /* background-color:#8EBA9B; */
     }
     .container {
+        border:1px solid red;
         padding: 0px;
         margin: 0px auto;
-
     }
     .div-right-section{
         display:none;
@@ -480,6 +480,10 @@ footer>p {
         padding:auto;
         margin:auto;
     }
+    .hero-left-section>img{
+        width:70%;
+        
+    }
     .hlsh-2{
         font-size: 50px;
     }
@@ -493,6 +497,7 @@ footer>p {
     }
     .hero-right-section>video{
         height:100%;
+        width: 250px; 
         padding-bottom: 30px;
     }
 
@@ -614,5 +619,8 @@ footer>p {
 
     footer{
         padding-bottom:50px;
+    }
+    .footer_second-img{
+        width:250px;
     }
 }
